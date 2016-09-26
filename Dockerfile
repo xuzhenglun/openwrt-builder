@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN  apt-get update &&\
-     apt-get install git-core build-essential libssl-dev libncurses5-dev unzip gawk subversion mercurial -y
+     apt-get install wget git-core build-essential libssl-dev libncurses5-dev unzip gawk subversion mercurial -y
 
 RUN useradd builder && su builder
 
